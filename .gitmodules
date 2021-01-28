@@ -1,0 +1,9 @@
+[submodule "PoC-result"]
+	path = PoC-result
+	url = https://github.com/Aufbau/PoC-result.git
+[submodule "PoC-worker"]
+	path = PoC-worker
+	url = https://github.com/Aufbau/PoC-worker.git
+[submodule "PoC-vote"]
+	path = PoC-vote
+	url = https://github.com/Aufbau/PoC-vote.git
