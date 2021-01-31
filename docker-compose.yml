@@ -29,6 +29,8 @@ services:
 
     result:
         build: ./PoC-result
+        volumes:
+            - "m2-data:/root/.m2"
         networks:
             - front-tier
             - back-tier
@@ -60,6 +62,7 @@ services:
 
 volumes:
     db-data:
+    m2-data:
 
 networks:
     front-tier:
